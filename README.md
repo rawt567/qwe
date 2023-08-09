@@ -1,1 +1,203 @@
-netflix homepage clone
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <title>Netflix Website Clone</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <div class="header">
+        <nav>
+            <img src="netflix_images/logo.png" class="logo">
+            <div>
+                <button class="language-btn">English<img src="netflix_images/down-icon.png"></button>
+                <button>Sign in</button>
+            </div>
+        </nav>
+        <div class="header-content">
+            <h1>Unlimited movies, TV shows and more.</h1>
+            <h3>Watch anywhere. Cancel anytime.</h3>
+            <p>Ready to watch? Enter your email to create or restart your membership.</p>
+            <form class="email-signup">
+                <input type="email" placeholder="Email address" required></input>
+                <button type="submit" >Get Started </button>
+            </form>
+        </div>
+    </div>
+    <div class="features">
+        <div class="row">
+            <div class="text-col">
+                <h2>Enjoy on your TV.</h2>
+                <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV,
+                Blu-ray players and more.</p>
+            </div>
+            <div class="img-col">
+                <img src="netflix_images/feature-1.png">
+            </div>
+        </div>
+        <div class="row">
+            <div class="img-col">
+                <img src="netflix_images/feature-2.png">
+            </div>
+            <div class="text-col">
+                <h2>Download your shows to watch offline.</h2>
+                <p>Save your favourites easily and always have something to watch.</p>
+            </div>
+            
+        </div>
+        <div class="row">
+            <div class="text-col">
+                <h2>Watch everywhere.</h2>
+                <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+            </div>
+            <div class="img-col">
+                <img src="netflix_images/feature-1.png">
+            </div>
+        </div>
+        <div class="row">
+            <div class="img-col">
+                <img src="netflix_images/feature-4.png">
+            </div>
+            <div class="text-col">
+                <h2>Create profiles for children.</h2>
+                <p>Send children on adventures with their favourite 
+                characters in a space made just for them—free with your membership.</p>
+            </div>
+            
+        </div>
+    </div>
+    <div class="faq">
+        <h2>Frequently Asked Questions</h2>
+        <ul class="accordian">
+            
+            <li>
+                <input type="radio" name="accordian" id="first">
+                <label for="first">What is Netflix?</label>
+                <div class="content"><p>Lorem ipsum dolor sit amet
+                     consectetur adipisicing elit. Ex hic aliquam 
+                     sed eum iure quos quibusdam inventore ut 
+                     dicta iste. Quos quas minus tenetur tempore
+                      vero, cumque non ea fugiat? In deserunt 
+                      vitae ea eos culpa temporibus excepturi
+                       dolor rem rerum aperiam voluptate saepe,
+                        molestias ipsa dolore sequi amet 
+                        voluptates?
+                    </p>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="accordian" id="two">
+                <label for="two">How much does Netflix cost?</label>
+                <div class="content"><p>Lorem ipsum dolor sit amet
+                     consectetur adipisicing elit. Ex hic aliquam 
+                     sed eum iure quos quibusdam inventore ut 
+                     dicta iste. Quos quas minus tenetur tempore
+                      vero, cumque non ea fugiat? In deserunt 
+                      vitae ea eos culpa temporibus excepturi
+                       dolor rem rerum aperiam voluptate saepe,
+                        molestias ipsa dolore sequi amet 
+                        voluptates?
+                    </p>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="accordian" id="three">
+                <label for="three">Where can I watch?</label>
+                <div class="content"><p>Lorem ipsum dolor sit amet
+                     consectetur adipisicing elit. Ex hic aliquam 
+                     sed eum iure quos quibusdam inventore ut 
+                     dicta iste. Quos quas minus tenetur tempore
+                      vero, cumque non ea fugiat? In deserunt 
+                      vitae ea eos culpa temporibus excepturi
+                       dolor rem rerum aperiam voluptate saepe,
+                        molestias ipsa dolore sequi  voluptates?
+                    </p>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="accordian" id="four">
+                <label for="four">Where can I watch?</label>
+                <div class="content"><p>Lorem ipsum dolor sit amet
+                     consectetur adipisicing elit. Ex hic aliquam 
+                     sed eum iure quos quibusdam inventore ut 
+                     dicta iste. Quos quas minus tenetur tempore
+                      vero, cumque non ea fugiat? In deserunt 
+                      vitae ea eos culpa temporibus excepturi
+                       dolor rem rerum aperiam voluptate saepe,
+                        molestias ipsa dolore sequi amet 
+                        voluptates?
+                    </p>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="accordian" id="five">
+                <label for="five">Were can I watch?</label>
+                <div class="content"><p>Lorem ipsum dolor sit amet
+                     consectetur adipisicing elit. Ex hic aliquam 
+                     sed eum iure quos quibusdam inventore ut 
+                     dicta iste. Quos quas minus tenetur tempore
+                      vero, cumque non ea fugiat? In deserunt 
+                      vitae ea eos culpa temporibus excepturi
+                       dolor rem rerum aperiam voluptate saepe,
+                        molestias ipsa dolore sequi amet 
+                        voluptates?
+                    </p>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="accordian" id="six">
+                <label for="six">Is Netflix for kids?</label>
+                <div class="content"><p>Lorem ipsum dolor sit amet
+                     consectetur adipisicing elit. Ex hic aliquam 
+                     sed eum iure quos quibusdam inventore ut 
+                     dicta iste. Quos quas minus tenetur tempore
+                      vero, cumque non ea fugiat? In deserunt 
+                      vitae ea eos culpa temporibus excepturi
+                       dolor rem rerum aperiam voluptate saepe,
+                        molestias ipsa dolore sequi amet 
+                        voluptates?
+                    </p>
+                </div>
+            </li>
+                
+        </ul>
+        <small>Ready to watch? Enter your email to create or restart your membership.
+        </small>
+        <form class="email-signup">
+            <input type="email" placeholder="Email address" required></input>
+            <button type="submit" >Get Started </button>
+        </form>
+    </div>
+    <div class="footer">
+        <h2>Questions? call 0000-000-000</h2>
+        <div class="row">
+            <div class="col">
+                <a href="#">FAQ</a>
+                <a href="#">Invesor relatiion</a>
+                <a href="#">privacuy</a>
+                <a href="#">legal</a>
+            </div>
+            <div class="col">
+                <a href="#">FAQ</a>
+                <a>Invesor relatiion</a>
+                <a>privacuy</a>
+                <a>legal</a>
+            </div>
+            <div class="col">
+                <a href="#">FAQ</a>
+                <a>Invesor relatiion</a>
+                <a>privacuy</a>
+                <a>legal</a>
+            </div>
+            <div class="col">
+                <a href="#">FAQ</a>
+                <a>Invesor relatiion</a>
+                <a>privacuy</a>
+                <a>legal</a>
+            </div>
+        </div>
+        <button class="language-btn">English<img src="netflix_images/down-icon.png"></button>
+        <p class="copyright-text">Netflix India</p>
+    </div>
+    </body>
+</html>
