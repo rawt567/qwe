@@ -11,8 +11,8 @@ body {
 .header{
     width:100%;
     height:100vh;
-    background-image:linear-gradient(rgba(0,0,0,0.7),
-    rgba(0,0,0,0.7)), url(https://res.cloudinary.com/practicaldev/image/fetch/s--_qgIFTRN--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_800/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ib678hcda2hvquourn33.PNG);
+    background-image: linear-gradient(rgba(0,0,0,0.7),
+    rgba(0,0,0,0.7)), url(https://dev-to-uploads.s3.amazonaws.com/uploads/articles/ib678hcda2hvquourn33.PNG);
     background-size:cover;
     background-position: center;
     padding:10px 8%;
